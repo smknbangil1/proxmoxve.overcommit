@@ -1,10 +1,6 @@
 ### **Cara Mengatasi Overcommit di Proxmox VE**  
-Kamu punya **3 VM** di **Proxmox VE dengan spesifikasi host**:  
-- **CPU:** 8 core  
-- **RAM:** 12GB  
-- **SSD:** 250GB  
 
-Jika terjadi **overcommit**, itu berarti alokasi sumber daya lebih besar dari kapasitas fisik, yang bisa menyebabkan VM mati tiba-tiba atau sistem menjadi tidak stabil.  
+Jika terjadi **overcommit**, itu berarti alokasi resources cpu, ram, storage pada masing-masing VM melebihi kemampuan fisik host proxmox, itulah yang bisa menyebabkan salah satu VM mati tiba-tiba atau sistem menjadi tidak stabil.  
 
 ---
 
